@@ -63,8 +63,4 @@ To run this project, you will need to add the following environment variables to
 DATABASE contains the dbURI of MongoDB connections and SECRET_KEY contains Secret key for signing and verifying Jason Web Tokens (JWT)
 
 
-## Authors
-
-- [@rohitvpatil0810](https://www.github.com/rohitvpaitl0810)
-- [@jayesh1602](https://www.github.com/jayesh1602)
 
