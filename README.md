@@ -1,5 +1,5 @@
 
-# Hey, Welcome to Repo of Public Health Record Management System! 👋
+# Hey, Welcome to Repo of Public Health Record Management System! 
 
 
 ## Run Locally
@@ -7,7 +7,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.com/PICT-PBL-6-2021-22/public_health_record_management_system
+   https://github.com/SOW004/Hospital-Management-System.git
 ```
 
 Go to the project directory
