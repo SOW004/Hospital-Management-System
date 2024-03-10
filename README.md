@@ -1,14 +1,6 @@
 
-# Hey, Welcome to Repo of Public Health Record Management System! 
+# Welcome to Repository of Hospital Management System! 
 
-
-## Run Locally
-
-Clone the project
-
-```bash
-   https://github.com/SOW004/Hospital-Management-System.git
-```
 
 Go to the project directory
 
@@ -50,17 +42,6 @@ Start Server using node or nodemon
   or nodemon app.js
 ```
 
-
-Please Use Tailwind CSS for styling components
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`DATABASE`
-
-`SECRET_KEY`
-
-DATABASE contains the dbURI of MongoDB connections and SECRET_KEY contains Secret key for signing and verifying Jason Web Tokens (JWT)
 
 
 
