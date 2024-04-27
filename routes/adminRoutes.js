@@ -19,4 +19,12 @@ router.get("/getadmin", requireAdminAuth, get_admin);
 router.get("/doctorlist", requireAdminAuth, view_doctorlist);
 router.get("/patientlist", requireAdminAuth, view_patientlist);
 
+router.get("/appointments", requireAdminAuth, (req, res) => {
+  // Handle logic to view all appointments
+});
+
+router.delete("/appointments/:id", requireAdminAuth, (req, res) => {
+  // Handle logic to delete an appointment by ID
+});
+
 module.exports = router;
