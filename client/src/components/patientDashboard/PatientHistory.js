@@ -85,7 +85,7 @@ const PatientHistory = (props) => {
             <Link to="/patient/profile">
               <div className="flex bg-white rounded shadow  px-4   ml-auto h-14 w-1/5 mr-8 mt-8">
                 <img
-                  src={patient_profile}
+                  src={patient_profile}x
                   className="w-12 p-1 rounded-2xl"
                   alt="profile"
                 ></img>
@@ -151,4 +151,3 @@ const PatientHistory = (props) => {
 };
 
 export default PatientHistory;
-

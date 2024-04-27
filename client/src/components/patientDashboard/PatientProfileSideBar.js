@@ -3,6 +3,8 @@ import dashboard from "../../assets/img/dashboard/dashboard.jpeg";
 import reports from "../../assets/img/dashboard/report2_pbl.png";
 import patient_history from "../../assets/img/dashboard/patient_history.jpeg";
 import patient_profile from "../../assets/img/dashboard/patient2_pbl.png";
+import book_appointment from "../../assets/img/dashboard/book_appointment.png";
+
 import logoutimg from "../../assets/img/dashboard/logout.png";
 import { Link, Outlet, useNavigate } from "react-router-dom";
 import { useState } from "react";
@@ -103,6 +105,24 @@ const PatientProfileSideBar = (props) => {
                     alt="profile"
                   ></img>
                   <h1 className="ml-4">Patient Profile</h1>
+                </div>
+              </Link>
+              <Link
+                to="/patient/appointment"
+                onClick={() => setToggle("Book_appointment")}
+                className={
+                  Toggle === "Book_appointment"
+                    ? "text-gray-900"
+                    : "text-gray-400"
+                }
+              >
+                <div className="flex p-2">
+                  <img
+                    src={book_appointment}
+                    className="w-6"
+                    alt="book appointment"
+                  ></img>
+                  <h1 className="ml-4">Book Appointment</h1>
                 </div>
               </Link>
             </div>

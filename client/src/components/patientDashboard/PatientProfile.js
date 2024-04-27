@@ -7,7 +7,7 @@ import phone from "../../assets/img/dashboard/patient-profile-phone.png";
 import mail from "../../assets/img/dashboard/patient-profile-mail.png";
 import blood from "../../assets/img/dashboard/patient-profile-blood.png";
 import healthid from "../../assets/img/dashboard/patient-profile-healthid.png";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
 const PatientProfile = (props) => {
@@ -164,6 +164,7 @@ const PatientProfile = (props) => {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </body>
